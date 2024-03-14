@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#box-model{
+    width: 200px; 
+    height: 200px;
+    background-color: red;
+    padding: 10px;
+    border: 10px solid black;
+    margin: 10px;
+}
+
+.btn{
+    border: none;
+    padding: 10px 5px 10px 5px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px 10px 5px 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: aliceblue;
+}
+
+.a:hover{
+color: red;
+text-decoration: none;
+}
+
+a:active{
+    color: green;
+}
+a:visited{
+    color:gold;
+}
+
+p{
+color: red;
+font: italic;
+background-color: ;
+}
+
+.parent{
+    font-style: normal;
+    color: blue;
+}
+.child{
+    font-style: inherit;
+    color: inherit;
+}
